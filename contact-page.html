@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="" ja>
+
+<head>
+  <meta charset="UTF-8">
+  <title>PF03.contact</title>
+  <meta name="description" contents="サイト説明">
+  <!-- レスポンシブ設定 -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> <!-- リセットCSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/tablet-style.css" rel="stylesheet">
+  <link href="css/pc-style.css" rel="stylesheet">
+  <link rel="icon" href="img/icon.png">
+
+  <!-- font/Noto Sans Japanese -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+  <!-- <div class="dev">
+    <p class="dev__text">開発メモ</p>
+    <p class="dev__text">Todo: fv__textboxの位置</p>
+  </div> -->
+
+  <header id="header">
+  </header>
+
+  <div class="main">
+
+    <section class="contact-page-fv" id="contact-page-fv">
+      <div class="contact-page-fv__img-box">
+        <img class="contact-page-fv__img" src="img/contact-page.png" alt="contact-page-fv">
+        <div class="contact-page-fv__img-mask"></div>
+      </div>
+      <div class="contact-page-fv__bgbox">
+      </div>
+      <div class="contact-page-fv__textbox">
+        <h1 class="contact-page-fv__main-text">CONTACT</h1>
+        <p class="contact-page-fv__sub-text">お問い合わせ</p>
+      </div>
+
+      <div class="contact-page-fv__scroll-box">
+        <div class="contact-page-fv__scroll-line">
+          <p class="contact-page-fv__scroll-text">SCROLL</p>
+        </div>
+        <div class="contact-page-fv__scroll-box-line_light"></div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="form__message">
+        ご依頼やご相談についてのご質問やご要望がございましたら、下記フォームよりお気軽にお問い合わせください。送付いただいた内容を確認の上、担当者からご連絡させていただきます。
+      </div>
+
+      <div class="form__container">
+        <div class="form__title-box">
+          <div class="form__title">お問い合わせ種別</div>
+          <div class="form__title-required-box">
+            <p class="form__title-required-text">必須</p>
+          </div>
+        </div>
+        <ul class="form__type-input-container">
+          <li class="form__type-input-box">
+            <input type="radio" name="form-type" id="form-type1" checked class="form__type-input">
+            <label for="form-type1" class="form__type-input-label">
+              制作依頼
+            </label>
+          </li>
+          <li class="form__type-input-box">
+            <input type="radio" name="form-type" id="form-type2" class="form__type-input">
+            <label for="form-type2" class="form__type-input-label">
+              採用
+            </label>
+          </li>
+          <li class="form__type-input-box">
+            <input type="radio" name="form-type" id="form-type3" class="form__type-input">
+            <label for="form-type3" class="form__type-input-label">
+              IR
+            </label>
+          </li>
+          <li class="form__type-input-box">
+            <input type="radio" name="form-type" id="form-type4" class="form__type-input">
+            <label for="form-type4" class="form__type-input-label">
+              その他
+            </label>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="form__container">
+        <div class="form__title">会社名・団体名</div>
+        <input type="text" class="form__input-text">
+      </div>
+
+      <div class="form__container">
+        <div class="form__title-box">
+          <div class="form__title">お名前</div>
+          <div class="form__title-required-box">
+            <p class="form__title-required-text">必須</p>
+          </div>
+        </div>
+        <input type="text" class="form__input-text">
+      </div>
+
+      <div class="form__container">
+        <div class="form__title-box">
+          <div class="form__title">メールアドレス</div>
+          <div class="form__title-required-box">
+            <p class="form__title-required-text">必須</p>
+          </div>
+        </div>
+        <input type="text" class="form__input-text">
+      </div>
+
+      <div class="form__container">
+        <div class="form__title">電話番号</div>
+        <input type="text" class="form__input-text">
+      </div>
+
+      <div class="form__container">
+        <div class="form__title-box">
+          <div class="form__title">お問い合わせ内容</div>
+          <div class="form__title-required-box">
+            <p class="form__title-required-text">必須</p>
+          </div>
+        </div>
+        <textarea name="" id="" class="form__input-textarea"></textarea>
+      </div>
+
+      <div class="form__container">
+        <div class="form__title">PRIVACY POLICY</div>
+        <div class="form__privacy-policy-box">
+          <p class="form__privacy-policy-title">個人情報保護方針</p>
+          <p class="form__privacy-policy-text">
+            株式会社DIGSMILE（以下、当社）では、個人情報の重要性を認識し、以下の基準に従って、適切な管理、保護に努めます。<br>
+            <br>
+            1.個人情報の収集、利用<br>
+            当社では、お客様との取引、サービスの提供のために個人情報を適法に収集し、収集した目的の範囲内で、個人情報を利用いたします。<br>
+            <br>
+            2.個人情報の第三者への開示と提供<br>
+            収集したお客様の個人情報は、法的な要請等によらない限り、お客様の承諾を得ない第三者に対して提供・開示はいたしません。<br>
+            業務の都合上、業務委託先に個人情報を提供する場合は、機密保持契約等によって業務委託先に個人情報保護を義務付けるとともに、業務委託先が適切に個人情報を取り扱うように管理いたします。<br>
+            <br>
+            3.個人情報の保護<br>
+            当社では、個人情報の紛失、破壊、改ざん、不正アクセス、および漏えい等を防止するため、適切な対策を行います。<br>
+            <br>
+            4.法令および関連規範の遵守<br>
+            当社は、個人情報の取り扱いに関して、個人情報保護法をはじめとする個人情報に関する法令および関連する規範を遵守します。<br>
+            <br>
+            5.個人情報の開示・訂正・削除<br>
+            当社では、個人情報の開示・訂正・削除等の依頼があった場合、情報提供者本人であることを確認の上、すみやかに対応いたします。<br>
+            <br>
+            法令や当社方針により、プライバシー・ポリシーを予告なく改訂することがあります。<br>
+            <br>
+            お問い合わせ窓口<br>
+            当社の個人情報の取扱いに関するお問い合わせは下記までご連絡お願いいたします。<br>
+            株式会社ファイアープレイス<br>
+            044-589-4333
+          </p>
+        </div>
+      </div>
+
+      <div class="form__confirm-box">
+        <input type="checkbox" name="" id="form-confirm" class="form__confirm-input">
+        <label for="form-confirm" class="form__confirm-label">
+          個人情報の取り扱いについて同意のうえ送信します。
+        </label>
+      </div>
+
+      <div class="form__btn-box">
+        <button class="common__btn">送信</button>
+      </div>
+
+    </section>
+
+  </div>
+
+
+  <footer id="footer">
+  </footer>
+
+
+</body>
+
+</html>

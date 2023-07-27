@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+/* pcビュー(1100px~) */
+@media (min-width: 1100px) {
+
+    /*---------------------------------------
+    header
+    ----------------------------------------- */
+    header {
+        padding: 0 58px;
+
+        .header__contents {
+            width: calc(100vw - 116px);
+        }
+    }
+
+    /*---------------------------------------
+    fv
+    ----------------------------------------- */
+    .fv {
+        margin-bottom: 120px;
+
+        .fv__textbox {
+
+            .fv__sub-text {
+                font-size: 20px;
+            }
+
+            .fv__main-text {
+                font-size: 72px;
+                line-height: 72px;
+            }
+        }
+    }
+
+    /*---------------------------------------
+    about-index
+    ----------------------------------------- */
+    .about-index {
+        width: min(1100px, 100vw);
+        margin: 0 auto;
+        padding: 110px 0;
+
+        .about-index__container {
+            margin-left: 50px;
+        }
+    }
+
+    /*---------------------------------------
+    works-culture
+    ----------------------------------------- */
+    .works-culture {
+        margin-top: -100px;
+        padding: 180px 0 60px 0;
+        flex-direction: row;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    /*---------------------------------------
+    topics
+    ----------------------------------------- */
+    .topics {
+        width: min(1100px, calc(100vw - 60px));
+        margin: 0 auto;
+        padding: 60px 0;
+
+        .topics__contents-box {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+        .topics__ul {
+            width: 700px;
+        }
+    }
+
+    /*---------------------------------------
+    contact-index
+    ----------------------------------------- */
+    .contact-index {
+        /* background-color: #F2F2F2; */
+        padding: 60px 0 120px 0;
+
+        .contact-index__container {
+            width: min(1100px, calc(100vw - 60px));
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row-reverse;
+            gap: 80px;
+
+            .contact-index__img-box {
+                margin-bottom: 0;
+
+                .contact-index__img,
+                .contact-index__img-mask {
+                    width: 580px;
+                    height: 390px;
+                }
+            }
+
+            .contact-index__contents-box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+        }
+    }
+
+    /*---------------------------------------
+    about-page-fv
+    ----------------------------------------- */
+    .about-page-fv {
+        margin-bottom: 120px;
+
+        .about-page-fv__textbox {
+
+            .about-page-fv__sub-text {
+                font-size: 20px;
+            }
+
+            .about-page-fv__main-text {
+                font-size: 72px;
+                line-height: 72px;
+            }
+        }
+    }
+
+    /*---------------------------------------
+    vision
+    ----------------------------------------- */
+    .vision {
+        margin: 0;
+        margin-left: 396px;
+        margin-bottom: 120px;
+
+        .vision__copy {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .vision__text {
+            font-size: 16px;
+        }
+    }
+
+    /*---------------------------------------
+    ceo-message
+    ----------------------------------------- */
+    .ceo-message {
+        width: min(1100px, 100vw - 60px);
+        margin: 0 auto 120px;
+        padding: 0;
+
+        .ceo-message__text-box {
+            width: 770px;
+            margin-top: -138.45px;
+            padding: 120px 0 90px 0;
+
+            .ceo-message__title-pc {
+                width: 400px;
+                margin: 0 auto;
+            }
+
+            .ceo-message__text {
+                width: 400px;
+                margin: 30px auto 0;
+                line-height: 32px;
+            }
+        }
+    }
+
+    /*---------------------------------------
+    company
+    ----------------------------------------- */
+    .company {
+        width: min(1100px, 100vw - 60px);
+        margin: 0 auto;
+        margin-bottom: 120px;
+
+        .company__info-container {
+            .company__info-box {
+                margin-left: 300px;
+            }
+        }
+    }
+
+    /*---------------------------------------
+    contact-page-fv
+    ----------------------------------------- */
+    .contact-page-fv {
+        margin-bottom: 120px;
+    }
+
+    /*---------------------------------------
+    form
+    ----------------------------------------- */
+    .form {
+        width: 700px;
+        margin-bottom: 120px;
+
+        .form__message {
+            margin-bottom: 55px;
+        }
+
+        .form__container {
+            margin-bottom: 45px;
+
+            .form__input-text {
+                height: 41px;
+            }
+
+            .form__privacy-policy-box {
+                padding: 10px 10px 0 10px;
+            }
+        }
+
+
+    }
+
+
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="" ja>
+
+<head>
+  <meta charset="UTF-8">
+  <title>PF03.about us</title>
+  <meta name="description" contents="サイト説明">
+  <!-- レスポンシブ設定 -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"> <!-- リセットCSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/tablet-style.css" rel="stylesheet">
+  <link href="css/pc-style.css" rel="stylesheet">
+  <link rel="icon" href="img/icon.png">
+
+  <!-- font/Noto Sans Japanese -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+  <!-- <div class="dev">
+    <p class="dev__text">開発メモ</p>
+    <p class="dev__text">Todo: fv__textboxの位置</p>
+  </div> -->
+
+  <header id="header">
+  </header>
+
+  <div class="main">
+
+    <section class="about-page-fv" id="about-page-fv">
+      <div class="about-page-fv__img-box">
+        <img class="about-page-fv__img" src="img/about-page.png" alt="about-page-fv">
+        <div class="about-page-fv__img-mask"></div>
+      </div>
+      <div class="about-page-fv__bgbox">
+      </div>
+      <div class="about-page-fv__textbox">
+        <h1 class="about-page-fv__main-text">ABOUT US</h1>
+        <p class="about-page-fv__sub-text">DIGSMILEについて</p>
+      </div>
+    </section>
+
+    <section class="vision" id="vision">
+      <h2 class="common__section-title32">VISION</h2>
+      <div class="vision__copy">
+        デザインで人を笑顔にする会社
+      </div>
+      <div class="vision__text">
+        私達のデザインで人が笑顔になる。<br>
+        <br>
+        そんなデザインを目指しています。<br>
+        <br>
+        私達が考える人を笑顔にできるデザインとは、<br>
+        デザインが課題を適切に解決ができているかどうか。<br>
+        <br>
+        ビジュアルだけではなく、<br>
+        本当に求められているものは何かを考え抜いて、<br>
+        デザインしていきたい。<br>
+        <br>
+        誰かの幸せを創ることも、<br>
+        世界の常識を変えていくことだってできる。<br>
+        <br>
+        私達はデザインの力を信じています。<br>
+      </div>
+    </section>
+
+    <section id="ceo-message" class="ceo-message">
+      <div class="ceo-message__img-box">
+        <img src="img/ceo-message.png" alt="ceo-message" class="ceo-message__img">
+      </div>
+      <div class="ceo-message__text-box">
+        <h2 class="common__section-title32 ceo-message__title-pc">CEO MESSAGE</h2>
+        <div class="ceo-message__text">
+          良いデザインは人を幸せにする。<br>
+          <br>
+          私達はそう信じています。<br>
+          <br>
+          デザインを通して、ビジネスの課題とユーザーの課題を解決することで、世の中を幸せにしていきたい。<br>
+          <br>
+          現在はあらゆるプロダクトがデジタル化されており、デザイナーに対する需要はますます高まっています。それとともに、期待される役割も幅広くなりつつあります。<br>
+          <br>
+          クリエイティブで社会の可能性を切り開いていく。<br>
+          <br>
+          変化の激しい現代、私達はデザインの力で社会を良い方向に変革していく企業を目指していきます。
+        </div>
+      </div>
+    </section>
+
+    <section id="company" class="company">
+      <h2 class="common__section-title32">COMPANY</h2>
+
+      <div class="company__info-container">
+        <div class="company__info-box">
+          <p class="company__info-field">社名</p>
+          <p class="company__info-value">株式会社DIGSMILE</p>
+        </div>
+        <div class="company__info-box">
+          <p class="company__info-field">代表取締役</p>
+          <p class="company__info-value">テイラー・スウィフト</p>
+        </div>
+        <div class="company__info-box">
+          <p class="company__info-field">設立</p>
+          <p class="company__info-value">2020年1月1日</p>
+        </div>
+        <div class="company__info-box">
+          <p class="company__info-field">資本金</p>
+          <p class="company__info-value">1億円</p>
+        </div>
+        <div class="company__info-box">
+          <p class="company__info-field">所在地</p>
+          <p class="company__info-value">東京都新宿区☓☓0-0-0</p>
+        </div>
+        <div class="company__info-box">
+          <p class="company__info-field">電話番号</p>
+          <p class="company__info-value">03-0000-00000</p>
+        </div>
+      </div>
+      
+      <picture>
+        <!-- 767px までの場合 -->
+        <source media="(max-width: 767px)" srcset="img/map-sp.png">
+        <!-- 768px から 1099px までの場合 -->
+        <source media="(min-width: 768px) and (max-width: 1099px)" srcset="img/map-tablet.png">
+        <!-- 1100px からの場合 -->
+        <source media="(min-width: 1100px)" srcset="img/map-pc.png">
+      
+        <!-- メディアクエリに合致しない場合の代替として、最後にimg要素を記述 -->
+        <img src="img/map-pc.png" alt="Map">
+      </picture>
+      
+      
+    </section>
+
+  </div>
+
+
+  <footer id="footer">
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,282 @@
+@charset "UTF-8";
+
+/* tabletビュー(768~1439px) */
+@media (min-width: 768px) {
+
+    /*---------------------------------------
+    共通
+    ----------------------------------------- */
+    .common__section-title28 {
+        font-size: 32px;
+    }
+
+    /*---------------------------------------
+    header
+    ----------------------------------------- */
+    body {
+        position: relative;
+    }
+
+    header {
+        padding: 0 30px;
+
+        .header__contents {
+            width: calc(100vw - 60px);
+        }
+    }
+
+    /*---------------------------------------
+    fv
+    ----------------------------------------- */
+    .fv {
+        /* なぜか必要 */
+        height: var(--fv__bgbox-height2);
+        margin-bottom: 80px;
+
+        .fv__img-box {
+
+            .fv__img,
+            .fv__img-mask {
+                width: var(--fv__img-width2);
+                height: var(--fv__img-height2);
+            }
+        }
+
+        .fv__bgbox {
+            width: var(--fv__bgbox-width2);
+            height: var(--fv__bgbox-height2);
+        }
+
+        .fv__textbox {
+            top: calc(var(--fv__img-height2) / 2 - 122px);
+            right: calc(100vw - var(--fv__img-width2) - 122px);
+            z-index: 2;
+        }
+    }
+
+    /*---------------------------------------
+    about
+    ----------------------------------------- */
+    .about-index {
+        padding: 60px 0;
+
+        .about-index__container {
+            padding: 50px 30px;
+        }
+
+        .about-index__text {
+            font-size: 16px;
+        }
+    }
+
+    /*---------------------------------------
+    works-culture
+    ----------------------------------------- */
+    .works-culture {
+        padding: 40px 30px;
+        gap: 80px;
+
+        .works,
+        .culture {
+            width: min(520px, calc(100vw - 60px));
+        }
+    }
+
+    /*---------------------------------------
+    topics
+    ----------------------------------------- */
+    .topics {
+        padding: 40px 30px;
+
+        .topics__ul {
+            gap: 32px;
+
+            .topics__li {
+                border-bottom: 1px solid #DDDDDD;
+                padding-bottom: 12px;
+
+                .topics__content-date {
+                    margin-bottom: 13px;
+                }
+
+                .topics__content-title {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    /*---------------------------------------
+    contact-index
+    ----------------------------------------- */
+    .contact-index {
+        padding: 40px 30px 80px 30px;
+    }
+
+    /*---------------------------------------
+    about-page-fv
+    ----------------------------------------- */
+    .about-page-fv {
+        /* なぜか必要 */
+        height: var(--about-page-fv__bgbox-height2);
+        margin-bottom: 80px;
+
+        .about-page-fv__img-box {
+
+            .about-page-fv__img,
+            .about-page-fv__img-mask {
+                width: var(--about-page-fv__img-width2);
+                height: var(--about-page-fv__img-height2);
+            }
+        }
+
+        .about-page-fv__bgbox {
+            width: var(--about-page-fv__bgbox-width2);
+            height: var(--about-page-fv__bgbox-height2);
+        }
+
+        .about-page-fv__textbox {
+            top: calc(var(--about-page-fv__img-height2) / 2 - 46px);
+            right: calc(100vw - var(--about-page-fv__img-width2) - 122px);
+            z-index: 2;
+        }
+    }
+
+    /*---------------------------------------
+    vision
+    ----------------------------------------- */
+    .vision {
+        .vision__copy {
+            margin-top: 30px;
+        }
+    }
+
+    /*---------------------------------------
+    ceo-message
+    ----------------------------------------- */
+    .ceo-message {
+        margin-bottom: 82px;
+        padding-right: 30px;
+        padding-left: 30px;
+
+        .ceo-message__img-box {
+            width: var(--ceo-message__img-width2);
+            height: var(--ceo-message__img-height2);
+
+        }
+
+        .ceo-message__text-box {
+            margin-top: -85px;
+            margin-right: 0;
+            padding: 109px 39px 78px 40px;
+
+            .ceo-message__text {
+                font-size: 16px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    /*---------------------------------------
+    company
+    ----------------------------------------- */
+    .company {
+        width: calc(100vw - 60px);
+
+        .company__info-container {
+            .company__info-box {
+                margin-left: 30px;
+
+                .company__info-field,
+                .company__info-value {
+                    line-height: 56px;
+                    font-size: 16px;
+                }
+
+                .company__info-field {
+                    width: 144px;
+                }
+            }
+        }
+    }
+
+    /*---------------------------------------
+    contact-page-fv
+    ----------------------------------------- */
+    .contact-page-fv {
+        height: var(--contact-page-fv__bgbox-height2);
+        margin-bottom: 135px;
+
+        .contact-page-fv__img-box {
+
+            .contact-page-fv__img,
+            .contact-page-fv__img-mask {
+                width: var(--contact-page-fv__img-width2);
+                height: var(--contact-page-fv__img-height2);
+            }
+        }
+
+        .contact-page-fv__bgbox {
+            width: var(--contact-page-fv__bgbox-width2);
+            height: var(--contact-page-fv__bgbox-height2);
+        }
+
+        .contact-page-fv__textbox {
+            /* 46px = contact-page-fv__textboxの高さの半分 */
+            top: calc(var(--contact-page-fv__img-height2) / 2 - 46px);
+
+            .contact-page-fv__sub-text {
+                text-align: left;
+                /* 以下fvと共通 */
+                /* font-size: 16px; */
+                /* font-weight: bold; */
+                /* color: #fff; */
+            }
+        }
+
+        .contact-page-fv__scroll-box {
+            display: none;
+        }
+    }
+
+    /*---------------------------------------
+    form
+    ----------------------------------------- */
+    .form {
+        width: calc(100vw - 100px);
+        margin-bottom: 197px;
+
+        .form__message {
+            margin-bottom: 21px;
+        }
+        
+        .form__container {
+            .form__type-input-container {
+                flex-direction: row;
+                gap: 50px;
+            }
+
+            .form__input-textarea {
+                height: 180px;
+            }
+
+            .form__privacy-policy-box {
+                padding: 10px 15px 0 10px;
+            }
+        }
+
+        .form__confirm-box {
+            justify-content: center;
+
+            .form__confirm-input {
+                inline-size: 20px;
+                block-size: 20px;
+            }
+        }
+
+        .form__btn-box {
+            text-align: center;
+        }
+
+    }
+}
