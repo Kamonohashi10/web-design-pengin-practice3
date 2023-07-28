@@ -7,7 +7,7 @@
 
 このポートフォリオは[PENGINさんが配布しているデザインカンプ](https://pengi-n.co.jp/blog/coding-practice3/) を実装したものです。
 
-GitHub Pagesで公開中:[https://sim10play.github.io/portfolio02/](https://sim10play.github.io/portfolio03/)
+GitHub Pagesで公開中:[https://sim10play.github.io/portfolio03/](https://sim10play.github.io/portfolio03/)
 
 ## 2. ファイル構成
 
