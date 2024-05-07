@@ -1,4 +1,4 @@
-# ポートフォリオ03
+# Web制作 ポートフォリオ 3
 
 ## 1. サイトの概要
 
@@ -7,7 +7,7 @@
 
 このポートフォリオは[PENGINさんが配布しているデザインカンプ](https://pengi-n.co.jp/blog/coding-practice3/) を実装したものです。
 
-GitHub Pagesで公開中:[https://sim10play.github.io/portfolio03/](https://sim10play.github.io/portfolio03/)
+GitHub Pagesで公開中:[https://inaka-de-mac.github.io/web-design-pengin-practice3/](https://inaka-de-mac.github.io/web-design-pengin-practice3/)
 
 ## 2. ファイル構成
 
